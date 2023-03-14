@@ -334,7 +334,7 @@ position: absolute;
 .about-productive .container{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(600px,calc(70%/2)));
-    justify-content:space-evenly;
+    justify-content:center;
     grid-gap: 40px 40px;
 }
 .about-productive .container .feat{
@@ -412,13 +412,6 @@ position: absolute;
     }
     .contact-productive .container{
         padding: 0;
-    }
-    .about-productive .container{
-        display: grid;
-        padding: 0;
-        grid-template-columns: repeat(auto-fill,minmax(90%,calc(70%/2))) !important;
-        justify-content:space-evenly;
-        grid-gap: 40px 40px;
     }
     .contact-productive .container .text h2{
         font-size: 6vw !important;
