@@ -333,7 +333,7 @@ position: absolute;
 /* start about-productive */
 .about-productive .container{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,calc(70%/2)));
+    grid-template-columns: repeat(auto-fill,minmax(300px,calc(70%/2)));
     justify-content:space-evenly;
     grid-gap: 40px 40px;
 }
