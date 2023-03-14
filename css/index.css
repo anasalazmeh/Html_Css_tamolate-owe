@@ -406,6 +406,9 @@ position: absolute;
     color: #2c4755;
 }
 @media (max-width:766px){
+    .contact-productive .container{
+        padding: 0;
+    }
     .about-productive .container{
         display: grid;
         padding: 0;
