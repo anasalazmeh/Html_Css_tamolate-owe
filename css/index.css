@@ -20,7 +20,6 @@ body{
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
 
 }
 .special-heading{
@@ -81,19 +80,16 @@ body{
 @media (min-width:767px){
     .container{
         width: 750px;
-        overflow: hidden;
     }
 }
 @media (min-width:992px){
     .container{
         width: 970px;
-        overflow: hidden;
     }
 }
 @media (min-width:1200px){
     .container{
         width: 1170px;
-        overflow: hidden;
     }
 }
 /* End Globel rules  */
@@ -337,9 +333,9 @@ position: absolute;
 /* start about-productive */
 .about-productive .container{
     display: grid;
-    grid-template-columns: repeat(auto-fill,90%);
-    justify-content:space-between;
-    grid-gap: 20px 20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,calc(70%/2)));
+    justify-content:space-evenly;
+    grid-gap: 40px 40px;
 }
 .about-productive .container .feat{
     height: 100%;
@@ -410,12 +406,12 @@ position: absolute;
     color: #2c4755;
 }
 @media (max-width:766px){
-    .about-productive .container .feat .text p,
-    .about-productive .container .feat .text h4{
-        font-size: 4vw;
-    }
-    .contact-productive .container{
+    .about-productive .container{
+        display: grid;
         padding: 0;
+        grid-template-columns: repeat(auto-fill,minmax(70%,calc(70%/2)));
+        justify-content:space-evenly;
+        grid-gap: 40px 40px;
     }
     .contact-productive .container .text h2{
         font-size: 6vw !important;
