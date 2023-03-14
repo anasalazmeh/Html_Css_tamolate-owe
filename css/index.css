@@ -406,6 +406,10 @@ position: absolute;
     color: #2c4755;
 }
 @media (max-width:766px){
+    .about-productive .container .feat .text p,
+    .about-productive .container .feat .text h4{
+        font-size: 4vw;
+    }
     .contact-productive .container{
         padding: 0;
     }
