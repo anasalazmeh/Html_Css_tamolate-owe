@@ -263,7 +263,7 @@ position: absolute;
     height: 800px;
 }
 .services-productive .container .col-image{
-    background-image: url(../image/images.jpg);
+    background-image: url(../image/dd.jpeg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
@@ -294,6 +294,7 @@ position: absolute;
 }
 .Portfolio-productive .container .feat img{
     width: 100%;
+    height: 200px;
     border-radius: 2%;
 }
 .Portfolio-productive .container .feat p{
@@ -345,7 +346,7 @@ position: absolute;
 }
 .about-productive .container .feat img{
     width: 70%;
-    height: 100%;
+    height: 300px;
 }
 .about-productive .container .col-image{
     position: relative;
